@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <link href="http://localhost/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <title>CellLab Wiki</title>
 
     <?php
@@ -31,6 +31,6 @@
        ?>
     </article>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script src="http://localhost/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+      <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   </body>
 </html>
