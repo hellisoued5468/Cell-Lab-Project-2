@@ -16,7 +16,7 @@
     <body>
 
       <header>
-        <a href="index.php"><h1>CellLab Wiki</h1></a>
+        <a href="http://localhost"><h1>CellLab Wiki</h1></a>
       </header>
       <nav>
         <?php
