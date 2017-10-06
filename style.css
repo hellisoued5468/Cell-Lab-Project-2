@@ -1,7 +1,3 @@
-header {
-  border-bottom:1px solid gray;
-  padding:20px;
-}
 nav {
   border-right:1px solid gray;
   width:200px;
@@ -13,8 +9,14 @@ nav ol {
 }
 article {
   float: left;
-  padding: 20px;
+  padding: 20px;모
 }
 h2{
   font-size: 30px;
+}
+div div{
+  margin-top: 30px;
+}
+html{
+  font-family: "Montserrat", sans-serif, serif;
 }
