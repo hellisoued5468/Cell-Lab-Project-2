@@ -6,10 +6,8 @@
       $sql = 'SELECT * FROM topic WHERE id='.$_GET['id'];
       $result = mysqli_query($conn, $sql);
       $row = mysqli_fetch_assoc($result);
-      //Start HTML-PHP Hybrid Source
       require 'article.html';
-//Else
-//Calls Default
+//Else Calls Default
 } else {
   ?>
   <h2>Welcome</h2>
