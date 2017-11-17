@@ -17,3 +17,8 @@ h2{
 div div{
   margin-top: 30px;
 }
+div.container{
+  border-bottom:2px solid black;
+  padding-left: 160.5;
+  width: 1491px;
+  }
