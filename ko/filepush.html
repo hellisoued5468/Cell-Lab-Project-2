@@ -1,8 +1,28 @@
 <html lang="ko">
-<meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
+  <style>
+    input{
+      border-top-width: 3px;
+      border-right-width: 3px;
+      border-left-width: 1px;
+    }
+    ol{
+    padding-left: 0px;
+    }
+    #text{
+      margin-left: 28px;
+    }
+  </style>
+</head>
 <body>
     <form method="POST" action="txt.php">
-        <input type="text" name="text" />
+      <ol>
+        파일이름:<input type="text" name="filename" id="filename"/>
+      </ol>
+      <ol>
+        내용:<input type="text" name="text" id="text"/>
+      </ol>
         <input type="submit" />
     </form>
 </body>

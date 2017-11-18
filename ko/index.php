@@ -11,33 +11,33 @@
       <meta name="naver-site-verification" content="5d53a9a1d2540aef8081ee90b473b941a70631e7"/>
     </div>
     <div class="link-stylesheet">
-      <link rel="stylesheet" href="http://localhost/style.css">
-      <link rel="stylesheet" href="http://localhost/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="http://cell-lab.kro.kr/style.css">
+      <link rel="stylesheet" href="http://cell-lab.kro.kr/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     </div>
-    <title>CellLab Wiki</title>
+    <title>CellLab 위키</title>
     <?php
     // mysql -hlocalost -uroot -phelly6505
     $conn = mysqli_connect("localhost", "root", "helly6505");
     // use celllab;
-    mysqli_select_db($conn, "celllab");
+    mysqli_select_db($conn, "celllab_ko");
     // SELECT * FROM topic;
     $result = mysqli_query($conn, "SELECT * FROM topic")
      ?>
   </head>
   <body>
-    <?php
-    require 'widget/header.php';
-     ?>
+      <?php
+      require '/widget/header.php';
+       ?>
     <nav>
       <?php
-      require "widget/list.php";
+      require "/widget/list.php";
        ?>
     </nav>
       <?php
-      require "widget/article.php";
+      require "/widget/article.php";
      ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://localhost/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   </body>
 </html>
-<a class="btn btn-default" href="/filepush.html" role="button">개발자에게 텍스트보내기(영어만요!제발!)</a>
+<a class="btn btn-default" href="filepush.html" role="button">개발자에게 텍스트보내기(영어만요!제발!)</a>
