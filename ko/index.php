@@ -4,7 +4,7 @@
     <div class="others">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, length=device-length, initial-scale=1">
     </div>
     <div class="site-verification">
       <meta name="google-site-verification" content="4-3hu8RWpXQsfizZXweV6rI1oC1yQxPIsxCDlT3kd_M" />
@@ -16,12 +16,7 @@
     </div>
     <title>CellLab 위키</title>
     <?php
-    // mysql -hlocalost -uroot -phelly6505
-    $conn = mysqli_connect("localhost", "root", "helly6505");
-    // use celllab;
-    mysqli_select_db($conn, "celllab_ko");
-    // SELECT * FROM topic;
-    $result = mysqli_query($conn, "SELECT * FROM topic")
+      require '/widget/db.php';
      ?>
   </head>
   <body>
@@ -40,4 +35,3 @@
     <script src="http://localhost/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   </body>
 </html>
-<a class="btn btn-default" href="filepush.html" role="button">개발자에게 텍스트보내기(영어만요!제발!)</a>
