@@ -11,8 +11,8 @@
       <meta name="naver-site-verification" content="5d53a9a1d2540aef8081ee90b473b941a70631e7"/>
     </div>
     <div class="link-stylesheet">
-      <link rel="stylesheet" href="http://cell-lab.kro.kr/style.css">
-      <link rel="stylesheet" href="http://cell-lab.kro.kr/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="http://localhost/style.css">
+      <link rel="stylesheet" href="http://localhost/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     </div>
     <title>CellLab 위키</title>
     <?php
